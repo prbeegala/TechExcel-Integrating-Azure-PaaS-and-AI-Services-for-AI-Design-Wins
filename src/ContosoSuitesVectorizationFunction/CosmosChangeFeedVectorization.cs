@@ -1,5 +1,5 @@
 using Azure;
-using Azure.AI.OpenAI;
+//using Azure.AI.OpenAI;
 using Azure.Identity;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
@@ -7,6 +7,8 @@ using OpenAI.Embeddings;
 using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
+ using Microsoft.SemanticKernel;
+ using Microsoft.SemanticKernel.Embeddings;
 
 namespace ContosoSuites.Functions
 {
